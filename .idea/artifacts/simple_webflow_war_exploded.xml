@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="simple-webflow:war exploded">
+    <output-path>$PROJECT_DIR$/web/simple-spring-webflow-webapp/target/simple-webflow</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="simple-webflow" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/simple-spring-webflow-webapp/target/simple-webflow/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="simple-webflow/web/Web" />
+    </root>
+  </artifact>
+</component>
